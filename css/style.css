@@ -1,3 +1,21 @@
+header{
+
+  background-color: white;
+  width: 100%;
+  border-bottom-width: 5px;
+  border-bottom: solid black;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  }
+
+body {
+  margin-top: 100px;
+}
+
+#allContent {
+}
+
 h1{
   font-family: font-family: 'Fjalla One', sans-serif;
   font-size: 15px;
@@ -21,15 +39,22 @@ h6{
   font-family: font-family: 'Varela Round', sans-serif;;
   font-size:9px;
 }
+
 .iconlist{
   display:inline;
   float:right;
 }
-header{
-  border-bottom-width:5px;
-  border-bottom-style: double;
-  position: fixed;
+
+.leftheader {
+  float: left;
 }
+
+.recipehead {
+
+}
+
+
+
 #instructions{
   font-family: 'PT Sans Narrow', sans-serif;
   font-size:11px;
@@ -37,11 +62,15 @@ header{
 .procedure {
 background-image: url("img/list-bg.png");
 }
+
+
 footer{
   position: fixed;
   border-top-width: 5px;
   border-bottom-style: double;
 }
+
+
 
 
 
