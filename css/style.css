@@ -21,17 +21,26 @@ h6{
   font-family: font-family: 'Varela Round', sans-serif;;
   font-size:9px;
 }
-#rightHeader.img{
+.iconlist{
   display:inline;
   float:right;
 }
 header{
   border-bottom-width:5px;
   border-bottom-style: double;
+  position: fixed;
 }
 #instructions{
   font-family: 'PT Sans Narrow', sans-serif;
   font-size:11px;
+}
+.procedure {
+background-image: url("img/list-bg.png");
+}
+footer{
+  position: fixed;
+  border-top-width: 5px;
+  border-bottom-style: double;
 }
 
 
